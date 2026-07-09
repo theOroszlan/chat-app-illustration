@@ -86,8 +86,9 @@ main {
   position: relative;
   flex: 1;
 
-  display: grid;
-  place-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   gap: var(--space-lg);
   min-width: 375px;
   overflow-x: hidden;
@@ -121,7 +122,8 @@ main {
 .mobile {
   background-color: var(--white);
   padding: var(--space-xs);
-  width: 18rem;
+  margin-block-start: 3rem;
+  max-width: 18.5rem;
   border-radius: 2rem;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.18);
 }
@@ -301,6 +303,7 @@ p.sent-msg {
   padding-block: 0.25rem;
   padding-inline-start: var(--space-sm);
   padding-inline-end: var(--space-xs);
+  margin-block-start: var(--space-sm);
   border-radius: 1.5rem;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.18);
 }
@@ -328,8 +331,7 @@ p.sent-msg {
 
 .main-section {
   padding: var(--space-sm);
-  text-align: center;
-  line-height: 3ch;
+  max-width: 30rem;
 }
 
 .title {
@@ -338,6 +340,8 @@ p.sent-msg {
 
 .main-section p {
   color: var(--gray-500);
+  text-align: center;
+  line-height: 3ch;
 }
 
 .attribution {
