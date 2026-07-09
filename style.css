@@ -97,9 +97,6 @@ main {
 .background {
   position: absolute;
   z-index: -1;
-
-  width: clamp(15rem, 40vw, 27rem);
-  height: 60%;
 }
 
 .dark-background {
@@ -107,6 +104,8 @@ main {
   left: -3rem;
 
   background: linear-gradient(45deg, var(--purple-500), var(--pink-500));
+  width: clamp(15rem, 40vw, 31rem);
+  height: 65vh;
   border-radius: 0 0 40rem clamp(7rem, 40vw, 30rem);
 }
 
@@ -115,6 +114,8 @@ main {
   right: -5rem;
 
   background: linear-gradient(var(--purple-500));
+  width: clamp(15rem, 40vw, 26.5rem);
+  height: 60vh;
   opacity: 0.05;
   border-radius: 40rem clamp(7rem, 40vw, 30rem) 0 0;
 }
