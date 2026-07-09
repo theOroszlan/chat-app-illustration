@@ -6,6 +6,8 @@ This is a solution to the [Chat app CSS illustration challenge on Frontend Mento
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
 - [Author](#author)
@@ -17,6 +19,14 @@ This is a solution to the [Chat app CSS illustration challenge on Frontend Mento
 Users should be able to:
 
 - View the optimal layout for the component depending on their device's screen size
+
+### Screenshot
+
+![](./assets/screenshots/Screenshot.png)
+
+### Links
+
+- Live Site URL: [Chat app CSS illustration](https://theoroszlan.github.io/chat-app-illustration/)
 
 ## My process
 
