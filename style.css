@@ -88,6 +88,7 @@ main {
 
   display: grid;
   place-items: center;
+  gap: var(--space-lg);
   min-width: 375px;
   overflow-x: hidden;
 }
@@ -323,6 +324,20 @@ p.sent-msg {
 
   display: grid;
   place-items: center;
+}
+
+.main-section {
+  padding: var(--space-sm);
+  text-align: center;
+  line-height: 3ch;
+}
+
+.title {
+  color: var(--purple-950);
+}
+
+.main-section p {
+  color: var(--gray-500);
 }
 
 .attribution {
