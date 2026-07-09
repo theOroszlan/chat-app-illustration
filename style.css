@@ -105,7 +105,7 @@ main {
   top: 0;
   left: -3rem;
 
-  background: linear-gradient(45deg, var(--purple-500), var(--pink-500));
+  background: linear-gradient(60deg, var(--purple-500), var(--pink-500));
   width: clamp(15rem, 40vw, 31rem);
   border-radius: 0 0 40rem clamp(7rem, 40vw, 30rem);
 }
