@@ -240,6 +240,7 @@ p.sent-msg {
   background-color: var(--white);
   color: var(--gray-500);
   box-shadow: 0 5px 10px hsla(206, 6%, 79%, 0.3);
+  border-bottom-right-radius: 0.25rem;
 }
 
 .dog-images {
@@ -270,6 +271,11 @@ p.sent-msg {
   font-size: var(--text-xs);
 
   box-shadow: 0 5px 10px hsla(206, 6%, 79%, 0.3);
+}
+
+.message:not(.sent-msg),
+.option {
+  border-bottom-left-radius: 0.25rem;
 }
 
 .option div {
